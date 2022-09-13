@@ -2,7 +2,7 @@
 /**
  * main - This is the main function
  *
- * Return: 0 if no error found
+ * Return:This will return (0) if successful
  */
 int main(void)
 {
