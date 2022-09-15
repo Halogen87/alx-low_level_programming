@@ -1,17 +1,23 @@
 /*
- * File: 10-add.c
- * Auth: Dr Imagwe Marcus
+ * File: alphabet ten times
+ * Auth: Dr Marcus IMAGWE
  */
 
 #include "main.h"
+
 /**
- * add - Adds two integers.
- * @n1: The first integer to be added.
- * @n2: The second integer to be added.
- *
- * Return: The result of the addition.
+ * print_alphabet_x10 - print alphabet 10 times, in lowercase
  */
-int add(int n1, int n2)
+
+void print_alphabet_x10(void)
 {
-	return (n1 + n2);
+	int coun = 0;
+	char alpha;
+
+	while (coun++ <= 9)
+	{
+		for (alpha = 97; alpha <= 122; alpha++)
+			_putchar(alpha);
+		_putchar('\n');
+	}
 }
