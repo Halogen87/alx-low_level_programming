@@ -1,4 +1,4 @@
-/*
+/i*
  * File: 9-times_table.c
  * Auth: Dr Imagwe Marcus
  */
@@ -27,6 +27,6 @@ void times_table(void)
 			else
 				_putchar((prod / 10) + '0');
 
-			-putchar((prod % 10) + '0');
+			_putchar((prod % 10) + '0');
 		}
 		_putchar('\n');
