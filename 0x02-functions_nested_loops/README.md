@@ -1,1 +1,1 @@
-There is no such thing as absolute value in this world
+There is no such thing
