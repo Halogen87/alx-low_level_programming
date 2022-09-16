@@ -1,1 +1,1 @@
-The shortest distance
+ The shortest distance between two points
