@@ -1,1 +1,1 @@
-Collaboration is multiplication
+The number speaks
