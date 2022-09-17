@@ -1,1 +1,1 @@
-Print diagonal
+6-print_line.c
