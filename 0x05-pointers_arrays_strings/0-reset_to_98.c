@@ -1,12 +1,20 @@
 #include "main.h"
 
+
+
 /**
- * reset_to_98 -updates the value of points n to 98
- *
- * @n: An integer input pointer
- * Return: Nothing.
- */
-void reset_to_98(int *n)
+*
+*  * reset_to_98 - changes the value of the variable
+*
+*   * that's pointed to by the argument to 98
+*
+*    *@n: pointer variable
+*
+*     */
+
+voidreset_to_98(int *n)
 {
-	*n = 98,
+
+	*n = 98;
+
 }
