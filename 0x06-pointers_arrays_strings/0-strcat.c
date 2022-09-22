@@ -1,4 +1,4 @@
-#include"main.h"
+#include "main.h"
 
 /**
 * _strcat - function to concatenate two strings and return a new string
@@ -8,7 +8,7 @@
 * Return: char pointer
 */
 
-char*_strcat(char *dest, char *src)
+char *_strcat(char *dest, char *src)
 {
 	int i = 0, j = 0;
 	char *p;
