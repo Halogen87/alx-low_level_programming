@@ -8,14 +8,14 @@
 * *@num: string to check
 * *Return: 1 is numm, 0 not num
 */
-int_isNum(char *num)
+int _isNum(char *num)
 {
 	int i;
 
 	for (i = 0; num[i] != '\0'; i++)
 	{
-	if (num[i] < '0' || num[i] > '9')
-		return (0);
+		if (num[i] < '0' || num[i] > '9')
+			return (0);
 	}
 	return (1);
 }
